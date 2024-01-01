@@ -51,22 +51,16 @@ public class Skip5SecondsWithArrowKeysMonoBehaviour : MonoBehaviour, INeedInject
     // Update is called once per frame
     private void Update()
     {
-        Debug.Log("right arrow key pressed");
 
         if (Keyboard.current != null
            && Keyboard.current.rightArrowKey.IsPressed())
         {
-            Debug.Log("right arrow key pressed");
-            //  UiManager.CreateNotification($"Skipped {secondsToSkip} seconds!");
 
             singSceneControl.SkipToPositionInSong(singSceneControl.PositionInSongInMillis + secondsToSkip * 1000);
         }
         else if (Keyboard.current != null
             && Keyboard.current.leftArrowKey.IsPressed())
         {
-            Debug.Log("left arrow key pressed");
-            //  UiManager.CreateNotification($"Skipped {secondsToSkip} seconds!");
-
             singSceneControl.SkipToPositionInSong(singSceneControl.PositionInSongInMillis - secondsToSkip * 1000);
         }
     }
