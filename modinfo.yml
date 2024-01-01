@@ -5,7 +5,6 @@ website: https://github.com/derdorius
 authors:
   - Darius Rohde
   - github.com/derdorius
-  - darius.rohde@gmx.de
 # Additional assemblies from the app domain that need to be accessed by your mod.
 requiredAssemblies:
   - UnityEngine.VideoModule

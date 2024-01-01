@@ -9,7 +9,7 @@ The Skip Seconds Melody Mania Mod is mod for Melody Mania. This mod allows you t
 3. Mod folders are searched in a specific folder called the mods root folder.
 4. The mods root folder can be found by executing the command `mod.path` in the game's console (open via F7).
 5. To install a mod folder, copy it to the mods root folder. An app restart may be required afterwards.
-6. Activate the Mod in the Gamesettings
+6. Activate the Mod in the Game settings
 
 
 ## Usage
