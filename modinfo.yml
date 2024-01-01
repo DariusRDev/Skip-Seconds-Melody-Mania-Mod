@@ -1,0 +1,12 @@
+name: Skip with arrow keys
+version: 1.0.0
+description: Skip 5 seconds forward or backward with the arrow keys. The skip time can be changed in the settings.
+website: https://github.com/derdorius
+authors:
+  - Darius Rohde
+  - github.com/derdorius
+  - darius.rohde@gmx.de
+# Additional assemblies from the app domain that need to be accessed by your mod.
+requiredAssemblies:
+  - UnityEngine.VideoModule
+  - Unity.InputSystem
