@@ -1,6 +1,6 @@
 # Skip Seconds Melody Mania Mod  for Melody Mania
 
-The Skip Seconds Melody Mania Mod is a custom mod for Melody Mania. This mod allows you to use the arrow keys in the singing scene to skip a custom time in seconds, both backwards and forwards. Time can be set in the Settings.
+The Skip Seconds Melody Mania Mod is mod for Melody Mania. This mod allows you to use the arrow keys in the singing scene to skip a custom time in seconds `default: 5s`, both backwards and forwards. Time can be set in the Settings.
 
 ## Installation
 
