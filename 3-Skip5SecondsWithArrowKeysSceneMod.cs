@@ -28,7 +28,6 @@ public class Skip5SecondsWithArrowKeysSceneMod : ISceneMod
         // You can do anything here, for example ...
 
         // ... show a message
-        UiManager.CreateNotification($" to {sceneEnteredContext.Scene}!");
         if (sceneEnteredContext.Scene == EScene.SingScene)
         {
             GameObject gameObject = new GameObject();
