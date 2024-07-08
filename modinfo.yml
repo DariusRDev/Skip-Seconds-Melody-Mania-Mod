@@ -1,5 +1,5 @@
 name: Skip through Songs with Arrow-Keys
-version: 1.0.2
+version: 1.0.3
 description: Skip 5 seconds forward or backward with the arrow keys. The skip time can be changed in the settings.
 website: https://github.com/derdorius
 authors:
