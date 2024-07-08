@@ -55,12 +55,13 @@ public class Skip5SecondsWithArrowKeysMonoBehaviour : MonoBehaviour, INeedInject
            && Keyboard.current.rightArrowKey.IsPressed())
         {
 
-            singSceneControl.SkipToPositionInSong(singSceneControl.PositionInSongInMillis + secondsToSkip * 1000);
+            singSceneControl.SkipToPosition
+            (singSceneControl.PositionInMillis + secondsToSkip * 1000);
         }
         else if (Keyboard.current != null
             && Keyboard.current.leftArrowKey.IsPressed())
         {
-            singSceneControl.SkipToPositionInSong(singSceneControl.PositionInSongInMillis - secondsToSkip * 1000);
+            singSceneControl.SkipToPosition(singSceneControl.PositionInMillis - secondsToSkip * 1000);
         }
     }
 
